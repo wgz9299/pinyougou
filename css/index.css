@@ -167,5 +167,45 @@
     border-right: 1px solid #ccc;
     float: left;
 }
+/* floor start */
+.box-hd {
+    height: 30px;
+    margin-top: 25px;
+    border-bottom: 2px solid #c81623;
+}
+.box-hd h3 {
+    float: left;
+    color: #d55860;
+    font-size: 18px;
+}
+.tab-list {
+    height: 30px;
+    line-height: 30px;
+    float: right;
+}
+.tab-list ul li {
+    float: left;
+}
+.tab-list ul li a {
+    margin: 0 10px;
+}
+.box-bd {
+    height: 361px;
+}
+.tab-content li {
+    height: 361px;
+    float: left;
+}
+.w209 {
+    width: 209px;
+}
+.w329 {
+    width: 329px;
+}
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+/* floor end */
 
 
