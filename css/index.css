@@ -1,0 +1,171 @@
+/* 首页样式 */
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 11px;
+}
+.focus {
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 455px;
+}
+.arrow-l,
+.arrow-r {
+    position: absolute;
+    width: 24px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    top: 50%;
+    margin-top: -20px;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    background: rgba(0,0,0,.3);
+}
+.arrow-r {
+    right: 0;
+    border-radius: 5px 0 0 5px; 
+}
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+}
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 2px solid rgba(255,255,255,.6);
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.circle li:hover {
+    background-color: #fff;
+}
+.current-circle {
+    background-color: #fff;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+.news-hd {
+    padding: 0 15px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px dotted #ccc;
+    font-size: 14px;
+}
+.news-hd a {
+    float: right;
+}
+.news-bd {
+    height: 130px;
+    margin-top: 5px;
+}
+.news-bd ul {
+    padding-left: 10px;
+}
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+}
+.lifeservice {
+    height: 208px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-top: 0;
+}
+.lifeservice ul {
+    width: 300px;
+}
+.lifeservice ul li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeservice a {
+    display: block;
+    height: 100%;
+    text-align: center;
+}
+.lifeservice p {
+    text-align: center;
+}
+.service_ico {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 10px auto;
+    margin-bottom: 0;
+    background: url(../img/icons.png);
+}
+.service_ico_huafei {
+    background-position: -18px -16px;
+}
+.service_ico_feiji {
+    background-position: -79px -15px;
+}
+.hot {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: url(../img/jian.jpg) no-repeat;
+    top: 0;
+    right: 0;
+}
+.bargain {
+    height: 75px;
+    margin-top: 5px;
+}
+.recommend {
+    height: 165px;
+    margin-top: 10px;
+}
+
+.recommend_hd {
+    width: 200px;
+    height: 165px;
+    background-color: #5c5251;
+}
+.recommend_hd img {
+    margin-top: 30px;
+    margin-left: 70px;
+    text-align: center;
+}
+.recommend_hd p {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+.recommend_bd {
+    width: 1000px;
+    overflow: hidden;
+    height: 165px;
+    background-color: #ebebeb;
+}
+.recommend_bd ul {
+    width: 1100px;
+}
+.recommend_bd ul li {
+    width: 250px;
+    height: 143px;
+    margin-top: 11px;
+    border-right: 1px solid #ccc;
+    float: left;
+}
+
+
