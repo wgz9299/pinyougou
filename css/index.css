@@ -198,6 +198,7 @@
 }
 .w209 {
     width: 209px;
+    background-color: #f9f9f9;
 }
 .w329 {
     width: 329px;
@@ -206,6 +207,47 @@
     width: 219px;
     border-right: 1px solid #ccc;
 }
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.tab-content-item {
+    border: 1px solid #ccc;
+}
+.tab-content-list li {
+    margin-bottom: 15px;
+}
+.tab-content-list li {
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
 /* floor end */
+
+/* fixedtool start */
+.fixedtool {
+    position: fixed;
+    top: 100px; 
+    left: 50%;
+    width: 66px;
+    background-color: red;
+    margin-left: -676px;
+
+}
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
+.fixedtool ul li {
+    height: 32px;
+    background-color: #fff;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+/* fixedtool end */
 
 
