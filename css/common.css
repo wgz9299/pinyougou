@@ -150,6 +150,7 @@
 } 
 
 .menu_item:hover {
+	padding-left: 20px;
 	background-color: #fff;
 }
 /*鼠标经过li 里面的 a变颜色*/
@@ -158,6 +159,7 @@
 }
 
 .menu_item {
+	transition: all 1s;
 	height: 31px;
 	line-height: 31px;
 	margin-left: 1px;

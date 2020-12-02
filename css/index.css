@@ -192,6 +192,15 @@
 .box-bd {
     height: 361px;
 }
+.box-bd img {
+    transition: all 0.5s;
+}
+.box-bd img:hover {
+    margin-left: 8px;
+}
+.tab-content {
+    width: 1250px;
+}
 .tab-content li {
     height: 361px;
     float: left;
