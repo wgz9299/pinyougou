@@ -21,6 +21,41 @@
     border: 1px solid #ccc;
 }
 .preview_list {
+    position: relative;
     height: 60px;
     margin-top: 60px;
+}
+.list_item {
+    width: 320px;
+    height: 60px;
+    margin: 0 auto;
+}
+.list_item li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    margin: 0 2px;
+    border: 2px solid transparent;
+}
+.list_item li.current {
+    border: 2px solid red;
+}
+.list_item li:hover {
+    border: 2px solid red;
+}
+.arrow_prev,
+.arrow_next {
+    position: absolute;
+    top: 15px;
+    width: 22px;
+    height: 32px;
+    background-color: pink;
+}
+.arrow_prev {
+    left: 0;
+    background: url(../img/arrow-prev.png);
+}
+.arrow_next {
+    right: 0;
+    background: url(../img/arrow-next.png);
 }
