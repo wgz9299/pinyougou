@@ -14,7 +14,6 @@
 }
 .itemInfo_wrap {
     width: 720px;
-    background-color: purple;
 }
 .preview_img {
     height: 398px;
@@ -58,4 +57,206 @@
 .arrow_next {
     right: 0;
     background: url(../img/arrow-next.png);
+}
+.sku_name {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.news {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #e12228;
+}
+.summary_price {
+    position: relative;
+    padding: 10px 0;
+    background-color: #fee9eb;
+}
+.summary dl {
+    overflow: hidden;
+}
+.summary dt,
+.summary dd {
+    float: left;
+}
+.summary dt {
+    line-height: 36px;
+    width: 60px;
+    padding-left: 10px;
+}
+.price {
+    font-size: 24px;
+    color: #e12228;
+}
+.summary_price a {
+    color: #c81623;
+}
+.remark {
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+.summary_promotion { 
+    background-color: #fee9eb;
+}
+.summary_promotion dd {
+    width: 450px;
+    line-height: 36px;
+}
+.summary_promotion em {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+    background-color: #c81623;
+}
+.summary_support dd {
+    line-height: 36px;
+}
+.choose_color {
+    line-height: 41px;
+}
+.choose_color dd a {
+    display: inline-block;
+    width: 80px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+.choose_color a.current {
+    border: 1px solid #c81623;
+}
+.choose_color dd a:hover {
+    border: 1px solid #c81623;
+}
+.choose_version {
+    line-height: 41px;
+    margin: 10px 0;
+}
+.choose_version dd a {
+    display: inline-block;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    padding: 0 12px;
+    background-color: #f7f7f7;
+}
+.choose_version a.current {
+    border: 1px solid #c81623;
+}
+.choose_version dd a:hover {
+    border: 1px solid #c81623;
+}
+.choose_amount {
+    float: left;
+    width: 50px;
+    height: 46px;
+    border: 1px solid #ccc;
+}
+.choose_btns {
+    margin-top: 20px;
+}
+.choose_amount {
+    position: relative;
+}
+.choose_amount input {
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.add,
+.reduce {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    right: 0;
+}
+.add {
+    top: 0;
+}
+.reduce {
+    cursor: not-allowed;
+    bottom: 0;
+}
+.addcar {
+    float: left;
+    width: 142px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 10px;
+    text-align: center;
+    color: #fff;
+    background-color: #c81623;
+}
+.aside {
+    float: left;
+    width: 208px;
+    height: 1000px;
+    border: 1px solid #ccc;
+}
+.detail {
+    float: right;
+    width: 978px;
+    height: 1000px;
+    border: 1px solid #ccc;
+}
+.tab_list {
+    height: 34px;
+}
+.tab_list .tab_ul1 li {
+    float: left;
+    height: 33px;
+    line-height: 34px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.first_tab {
+    width: 104px;
+   
+}
+.second_tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+.tab_list .tab_ul1 .current {
+    background-color: #fff;
+    border-bottom: 1px solid transparent;
+}
+.tab_ul2 {
+    width: 184px;
+    height: 160px;
+    margin: 0 12px;
+}
+.tab_ul2 li {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px dotted #ccc;
+}
+.tab_ul2 li a {
+    height: 30px;
+    line-height: 30px;
+    margin: 0 25px;
+}
+.tab_ul2 .current {
+    border-bottom: 1px dotted transparent;
+}
+.other {
+    width: 184px;
+    height: 34px;
+    line-height: 34;
+    font-size: 14px;
 }
