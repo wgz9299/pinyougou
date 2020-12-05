@@ -1,0 +1,122 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+.header img {
+    padding-top: 15px;
+}
+.registerarea {
+    height: 520px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.registerarea h3 {
+    height: 40px;
+    line-height: 40px;
+    color: #767676;
+    padding-left: 10px;
+    font-weight: normal;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+}
+.registerarea h3 em {
+    float: right;
+    padding-right: 10px;
+    font-size: 14px;
+}
+.registerarea em a {
+    color: #d99497;
+}
+.reg_form {
+    width: 600px;
+    height: 420px;
+    margin: 40px auto 0;
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+.inp {
+    width: 239px;
+    height: 34px;
+    margin-left: 15px;
+}
+.error {
+    color: #b1191a;
+    margin-left: 10px;
+}
+.error_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/error.png) no-repeat;
+    vertical-align: middle;
+}
+.success {
+    color: yellowgreen;
+    margin-left: 10px;
+}
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/success.png) no-repeat;
+    vertical-align: middle;
+}
+.safe {
+    margin-left: 200px;
+    color: #ccc;
+}
+.safe em {
+    color: #fff;
+    padding: 0 12px;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f;
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree {
+    padding-left: 100px;
+}
+.agree input {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.agree a {
+    color: blue;
+}
+.submit_btn input {
+    width: 200px;
+    height: 34px;
+    font-size: 14px;
+    background-color: #c81623;
+    color: #fff;
+    border: 0;
+    margin: 30px 0 0 130px;
+}
+.footer {
+	height: 120px;
+	text-align: center;
+}
+.links {
+    margin-top: 25px;
+}
+.copyright {
+    margin-top: 10px;
+}
