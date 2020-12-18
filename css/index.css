@@ -11,6 +11,12 @@
     width: 720px;
     height: 455px;
 }
+.focus ul {
+    width: 600%;
+}
+.focus ul li {
+    float: left;
+}
 .arrow-l,
 .arrow-r {
     position: absolute;
