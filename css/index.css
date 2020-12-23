@@ -244,6 +244,7 @@
 
 /* fixedtool start */
 .fixedtool {
+    display: none;
     position: fixed;
     top: 100px; 
     left: 50%;
